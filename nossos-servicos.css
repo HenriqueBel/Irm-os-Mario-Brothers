@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px;
+    color: red;
+}
+
+.tubulacao {
+    margin: 40px 0 0 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.item1 {
+    margin-top: 2px;
+    display: flex;
+    width: 150px;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 16px;
+    color: white;
+}
+
+.reparos {
+    margin: 40px 0 0 25px;
+    display: flex;
+    flex-direction: column;
+    left: 300px;
+    position: absolute;
+    top: 43px;
+}
+
+.item2 {
+    margin-top: 2px;
+    display: flex;
+    width: 150px;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 16px;
+    color: white;
+}
+
+.reparos1 {
+    margin: 40px 0 0 25px;
+    display: flex;
+    flex-direction: column;
+    left: 300px;
+    position: absolute;
+    top: 219px;
+}
+.reparos2{
+    margin: 40px 0 0 25px;
+    display: flex;
+    flex-direction: column;
+    left: 300px;
+    position: absolute;
+    top: 396px;
+}
+
+.reparos3{
+    margin: 40px 0 0 25px;
+    display: flex;
+    flex-direction: column;
+    left: 600px;
+    position: absolute;
+    top: 43px;  
+}
+
+.reparos4{
+    margin: 40px 0 0 25px;
+    display: flex;
+    flex-direction: column;
+    left: 600px;
+    position: absolute;
+    top: 330px;  
+}
+
+video {
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.caixa-video {
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+.mascara {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    position: fixed;
+    top: 0;
+}
+
+.pagamentos{
+color: white;
+display: flex;
+flex-direction: column;
+position: absolute;
+right: 100px;
+top: 90px;
+}
+
+.pagamentos1{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 140px;
+    top: 200px;
+    }
