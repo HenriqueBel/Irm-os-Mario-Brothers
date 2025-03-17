@@ -14,8 +14,10 @@
 
 .tubulacao {
     margin: 40px 0 0 25px;
-    display: flex;
-    flex-direction: column;
+}
+
+.tubulacao img {
+    width: 150px;
 }
 
 .item1 {
@@ -26,6 +28,7 @@
     font-weight: bold;
     line-height: 16px;
     color: white;
+    width: 150px
 }
 
 .reparos {
@@ -35,6 +38,8 @@
     left: 300px;
     position: absolute;
     top: 43px;
+    width: 150px;
+    height: 150px;
 }
 
 .item2 {
@@ -45,6 +50,7 @@
     font-weight: bold;
     line-height: 16px;
     color: white;
+    width: 150px;
 }
 
 .reparos1 {
@@ -54,32 +60,41 @@
     left: 300px;
     position: absolute;
     top: 219px;
+    width: 150px;
+    height: 100px;
 }
-.reparos2{
+
+.reparos2 {
     margin: 40px 0 0 25px;
     display: flex;
     flex-direction: column;
     left: 300px;
     position: absolute;
     top: 396px;
+    width: 150px;
+    height: 100px;
 }
 
-.reparos3{
+.reparos3 {
     margin: 40px 0 0 25px;
     display: flex;
     flex-direction: column;
     left: 600px;
     position: absolute;
-    top: 43px;  
+    top: 43px;
+    width: 250px;
+    height: 200px;
 }
 
-.reparos4{
+.reparos4 {
     margin: 40px 0 0 25px;
     display: flex;
     flex-direction: column;
     left: 600px;
     position: absolute;
-    top: 330px;  
+    top: 330px;
+    width: 250px;
+    height: 200px;
 }
 
 video {
@@ -103,20 +118,65 @@ video {
     top: 0;
 }
 
-.pagamentos{
-color: white;
-display: flex;
-flex-direction: column;
-position: absolute;
-right: 100px;
-top: 90px;
+.pagamentos {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 100px;
+    top: 90px;
 }
 
-.pagamentos1{
+.pagamentos1 {
     color: white;
     display: flex;
     flex-direction: column;
     position: absolute;
     right: 140px;
     top: 200px;
+}
+
+@media (max-width:900px) {
+    .tubulacao {
+        margin: 36px 0 0 26px;
     }
+
+    .reparos {
+        left: 187px;
+        width: 154px;
+    }
+
+    .reparos1 {
+        left: 187px;
+        width: 154px;
+    }
+
+    .reparos2 {
+        left: 187px;
+        width: 154px;
+    }
+
+    .reparos3 {
+        left: 0px;
+        top: 577px;
+        width: 154px;
+    }
+
+    .reparos4 {
+        left: 187px;
+        top: 577px;
+        width: 154px;
+    }
+
+    .pagamentos {
+        left: 20px;
+        top: 779px;
+        width: 154px;
+    }
+
+    .pagamentos1 {
+        left: 210px;
+        top: 779px;
+        width: 154px;
+    }
+}
